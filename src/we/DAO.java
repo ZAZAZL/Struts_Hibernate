@@ -1,0 +1,6 @@
+package we;
+
+public interface DAO{
+    //ªÒ»°
+    public user get(String name);
+}

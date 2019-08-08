@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+     <package name="basicstruts" extends="struts-default">
+     <action name="denlu" class="we.Login">
+           <result name="success">c.jsp</result>
+           <result name="fail">a.jsp</result>
+     </action>
+     <action name="zhuce" class="we.qq">
+           <result name="success">a.jsp</result>
+           <result name="fail">b.jsp</result>
+     </action>
+     <action name="write" class="we.WriteServlet">
+           <result name="success">c.jsp</result>
+           <result name="fail">d.jsp</result>
+     </action>
+     <action name="testLogin" class="we.yanzhengma">      
+     </action>
+     </package>
+</struts>
